@@ -33,6 +33,6 @@ Route::get('/Plantacion', function () {
     return view('Plantacion');
 })->name('Plantacion');
 
-Route::get('/Invasores', function () {
-    return view('Invasores');
-})->name('Invasores');
+Route::get('/Especies', function () {
+    return view('Especies');
+})->name('Especies');

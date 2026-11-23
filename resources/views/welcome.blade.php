@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suelo Vivo</title>
+    <title>Un Futuro Verde</title>
     <style>
         * {
             margin: 0;
@@ -20,6 +19,67 @@
             overflow-x: hidden;
             padding-bottom: 40px;
         }
+
+        /* ===== FONDO DE BURBUJAS ===== */
+        .burbujas {
+            position: fixed;
+            inset: 0;
+            overflow: hidden;
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        .burbuja {
+            position: absolute;
+            bottom: -150px;
+            background: radial-gradient(circle at 30% 30%,
+                        rgba(255, 255, 255, 0.8),
+                        rgba(168, 230, 207, 0.35) 40%,
+                        rgba(76, 175, 80, 0.15) 70%,
+                        transparent 100%);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 50%;
+            box-shadow: inset -5px -5px 15px rgba(76, 175, 80, 0.15),
+                        inset 5px 5px 15px rgba(255, 255, 255, 0.6),
+                        0 0 15px rgba(168, 230, 207, 0.4);
+            animation: subir linear infinite;
+            opacity: 0;
+        }
+
+        /* Burbujas con distintos tamaños, posiciones, duraciones y retardos */
+        .burbuja:nth-child(1)  { width: 40px;  height: 40px;  left: 5%;   animation-duration: 14s; animation-delay: 0s;   }
+        .burbuja:nth-child(2)  { width: 70px;  height: 70px;  left: 15%;  animation-duration: 18s; animation-delay: 2s;   }
+        .burbuja:nth-child(3)  { width: 25px;  height: 25px;  left: 25%;  animation-duration: 12s; animation-delay: 4s;   }
+        .burbuja:nth-child(4)  { width: 90px;  height: 90px;  left: 35%;  animation-duration: 22s; animation-delay: 1s;   }
+        .burbuja:nth-child(5)  { width: 50px;  height: 50px;  left: 45%;  animation-duration: 16s; animation-delay: 6s;   }
+        .burbuja:nth-child(6)  { width: 30px;  height: 30px;  left: 55%;  animation-duration: 13s; animation-delay: 3s;   }
+        .burbuja:nth-child(7)  { width: 110px; height: 110px; left: 65%;  animation-duration: 25s; animation-delay: 5s;   }
+        .burbuja:nth-child(8)  { width: 45px;  height: 45px;  left: 75%;  animation-duration: 17s; animation-delay: 7s;   }
+        .burbuja:nth-child(9)  { width: 60px;  height: 60px;  left: 85%;  animation-duration: 19s; animation-delay: 2.5s; }
+        .burbuja:nth-child(10) { width: 20px;  height: 20px;  left: 95%;  animation-duration: 11s; animation-delay: 8s;   }
+        .burbuja:nth-child(11) { width: 80px;  height: 80px;  left: 10%;  animation-duration: 21s; animation-delay: 9s;   }
+        .burbuja:nth-child(12) { width: 35px;  height: 35px;  left: 50%;  animation-duration: 15s; animation-delay: 10s;  }
+
+        @keyframes subir {
+            0% {
+                transform: translateY(0) translateX(0) scale(0.8);
+                opacity: 0;
+            }
+            10% {
+                opacity: 0.85;
+            }
+            50% {
+                transform: translateY(-50vh) translateX(25px) scale(1);
+            }
+            90% {
+                opacity: 0.85;
+            }
+            100% {
+                transform: translateY(-110vh) translateX(-25px) scale(1.1);
+                opacity: 0;
+            }
+        }
+        /* ===== FIN FONDO DE BURBUJAS ===== */
 
         /* Decoraciones de fondo: hojas y círculos */
         body::before,
@@ -154,13 +214,29 @@
 </head>
 
 <body>
+    <!-- Fondo de burbujas animadas -->
+    <div class="burbujas" aria-hidden="true">
+        <span class="burbuja"></span>
+        <span class="burbuja"></span>
+        <span class="burbuja"></span>
+        <span class="burbuja"></span>
+        <span class="burbuja"></span>
+        <span class="burbuja"></span>
+        <span class="burbuja"></span>
+        <span class="burbuja"></span>
+        <span class="burbuja"></span>
+        <span class="burbuja"></span>
+        <span class="burbuja"></span>
+        <span class="burbuja"></span>
+    </div>
+
     <!-- Decoraciones flotantes -->
     <span class="decoracion hoja1"></span>
     <span class="decoracion hoja2"></span>
     <span class="decoracion hoja3"></span>
     <span class="decoracion hoja4"></span>
 
-    <h1>Suelo Vivo</h1>
+    <h1>Un Futuro Verde</h1>
 
     <header>
         <a href="{{ route('Inicio') }}">Inicio</a>
@@ -169,7 +245,7 @@
         <a href="{{ route('Arboles') }}">Tipos de Árboles</a>
         <a href="{{ route('Caracteristicas') }}">Características</a>
         <a href="{{ route('Plantacion') }}">Plantación</a>
-        <a href="{{ route('Invasores') }}">Invasores</a>
+        <a href="{{ route('Especies') }}">Especies</a>
     </header>
     
 </body>

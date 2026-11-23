@@ -49,5 +49,8 @@
                 Además, implementan prácticas de cultivo sustentable que incluyen la producción de abono orgánico y el cuidado de especies nativas de alto valor ecológico, como el <em>ahuehuete</em>. Por último, colaboran con dependencias locales en la creación de jardines polinizadores diseñados con flora nativa para preservar insectos esenciales y mantener el equilibrio biológico de la región.
             </p>
         </section>
+        <center>
+    <a href="{{ url('/') }}" class="boton-volver">← Volver al inicio</a>
+</center>
 </body>
 </html>
