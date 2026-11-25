@@ -36,3 +36,7 @@ Route::get('/Plantacion', function () {
 Route::get('/Especies', function () {
     return view('Especies');
 })->name('Especies');
+
+Route::get('/ejemplos', function () {
+    return view('ejemplos');
+})->name('ejemplos');

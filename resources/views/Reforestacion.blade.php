@@ -203,11 +203,11 @@
             <center><h2>La Reforestación</h2></center>
 
             <p>
-                <strong>La reforestación en el CBTa 35 "Leona Vicario" fusiona la educación técnica agropecuaria con la conservación ambiental a través de tres ejes principales. En primer lugar, la comunidad estudiantil realiza jornadas ecológicas enfocadas en plantar árboles para rescatar suelos y proteger zonas forestales críticas, como los bosques de agua en Magdalena Contreras. En segundo lugar, implementan prácticas de cultivo sustentable que incluyen la producción de abono orgánico y el cuidado de especies nativas de alto valor ecológico, como el ahuehuete. Por último, colaboran con dependencias locales en la creación de jardines polinizadores diseñados con flora nativa para preservar insectos esenciales y mantener el equilibrio biológico de la región.    </strong>
+                <strong>La reforestación en el CBTa 35 "Leona Vicario" fusiona la educación técnica agropecuaria con la conservación ambiental a través de tres ejes principales. En primer lugar, la comunidad estudiantil realiza jornadas ecológicas enfocadas en plantar árboles para rescatar suelos y proteger zonas forestales críticas, como los bosques de agua. En segundo lugar, implementan prácticas de cultivo sustentable que incluyen la producción de abono orgánico y el cuidado de especies nativas de alto valor ecológico, como el ahuehuete. Por último, colaboran con dependencias locales en la creación de jardines polinizadores diseñados con flora nativa para preservar insectos esenciales y mantener el equilibrio biológico de la región.    </strong>
             </p>
 
             <ul class="lista-azul">
-                <li><strong>Jornadas ecológicas:</strong> Estudiantes plantan árboles para rescatar suelos y proteger bosques de agua, como en la Extensión de Magdalena Contreras.</li>
+                <li><strong>Jornadas ecológicas:</strong> Estudiantes plantan árboles para rescatar suelos y proteger bosques de agua.</li>
                 <li><strong>Cultivo sustentable:</strong> Producen abono orgánico y cuidan especies nativas de alto valor ecológico, como el ahuehuete.</li>
                 <li><strong>Espacios de biodiversidad:</strong> Crean jardines polinizadores con flora nativa para proteger insectos esenciales en la región.</li>
             </ul>

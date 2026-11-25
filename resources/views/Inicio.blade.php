@@ -38,6 +38,22 @@
             margin-bottom: 16px;
             text-align: justify;
         }
+        .boton-volver {
+            display: inline-block;
+            margin: 20px auto;
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #1a3a3a, #0f2626);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: transform 0.3s, background 0.3s;
+        }
+        
+        .boton-volver:hover {
+            transform: scale(1.05);
+            background: linear-gradient(135deg, #0f2626, #1a3a3a);
+        }
     </style>
 </head>
 <body>

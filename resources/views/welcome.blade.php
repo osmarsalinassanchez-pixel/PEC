@@ -246,6 +246,7 @@
         <a href="{{ route('Caracteristicas') }}">Características</a>
         <a href="{{ route('Plantacion') }}">Plantación</a>
         <a href="{{ route('Especies') }}">Especies</a>
+        <a href="{{ route('ejemplos') }}">ejemplos</a>
     </header>
     
 </body>
