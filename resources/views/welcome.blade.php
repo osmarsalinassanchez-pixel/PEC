@@ -253,7 +253,11 @@
     </header>
     
     <center><strong>¿Que significa Un futuro verde?</strong></center>
-    <p>Es una pagina web que se refiere a la reforestacion de la escuela CBTA 35 (Centro de Bachillerato )</p>
+    <center><pre>
+        Es una pagina web que se refiere a la reforestacion de la escuela CBTA 35 (Centro de Bachillerato Agropecuario)
+        y de otros lugares que son afectados
+
+    </pre></center>
 
 </body>
 </html>
