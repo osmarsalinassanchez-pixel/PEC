@@ -67,7 +67,7 @@
   </header>
 
   <main>
-    <h2>Guía Técnica de Especies Nativas (HU-10)</h2>
+    <h2>Guía Técnica de Especies Nativas</h2>
     <p style="margin-bottom: 18px;">Fichas técnicas para voluntarios principiantes sobre cómo plantar y cuidar cada especie local:</p>
     <div class="grid">
       <div class="card">

@@ -76,7 +76,7 @@
   </header>
 
   <main>
-    <h2>Registro en Campo y Seguimiento de Riego (HU-05 / HU-06 / HU-11)</h2>
+    <h2>Registro en Campo y Seguimiento de Riego</h2>
     
     <div class="form-panel">
       <h3>Registrar Árbol Plantado / Inspección de Sobrevivencia</h3>
