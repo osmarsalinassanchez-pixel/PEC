@@ -52,9 +52,20 @@
     <div class="burbuja b1"></div><div class="burbuja b2"></div>
     <div class="burbuja b3"></div><div class="burbuja b4"></div>
     <div class="header-info">
-      <h1>Sistema Integral de Reforestación — CBTa 35 "Leona Vicario"</h1>
+      <h1>Un futuro verde - CBTa 35 "Leona Vicario"</h1>
       <p>Proyecto Escolar Comunitario (PEC) | Módulo III — Carrera: Programación (3°B)</p>
-    
+    <nav>
+       <nav>
+  <a href="{{ route('Inicio') }}" class="nav-btn">Inicio</a>
+  <a href="{{ route('Reforestacion') }}" class="nav-btn">Reforestación</a>
+  <a href="{{ route('Beneficios') }}" class="nav-btn">Beneficios</a>
+  <a href="{{ route('Arboles') }}" class="nav-btn active">Tipos de Árboles</a>
+  <a href="{{ route('Caracteristicas') }}" class="nav-btn">Características</a>
+  <a href="{{ route('Plantacion') }}" class="nav-btn">Plantación</a>
+  <a href="{{ route('Especies') }}" class="nav-btn">Especies</a>
+  <a href="{{ route('ejemplos') }}" class="nav-btn">Ejemplos</a>
+</nav>
+    </nav>
   </header>
 
   <main>
@@ -103,7 +114,10 @@
     </center>
 
   <footer>
-    <strong>CBTa No. 35 "Leona Vicario"</strong> — Proyecto Escolar Comunitario (PEC) | Alumno: Salinas Sánchez Diego Osmar (3°B Programación) | Maestro: Mariano Sánchez Reyes
+   <center><strong>CBTa No. 35 "Leona Vicario"</strong><br></center>  
+    <center><strong>Proyecto Escolar Comunitario (PEC)</strong></center><br>  
+    <center><strong>Alumno: Salinas Sánchez Diego Osmar (3°B Programación)</strong></center>
+    <center><strong>Maestro: Mariano Sánchez Reyes</strong></center>
   </footer>
 </body>
 </html>

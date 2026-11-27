@@ -210,6 +210,7 @@
             header a { padding: 10px 16px; font-size: 0.85rem; }
             .decoracion { font-size: 1.8rem; }
         }
+        
     </style>
 </head>
 
@@ -239,15 +240,20 @@
     <h1>Un Futuro Verde</h1>
 
     <header>
-        <a href="{{ route('Inicio') }}">Inicio</a>
-        <a href="{{ route('Reforestacion') }}">Reforestación</a>
-        <a href="{{ route('Beneficios') }}">Beneficios</a>
-        <a href="{{ route('Arboles') }}">Tipos de Árboles</a>
-        <a href="{{ route('Caracteristicas') }}">Características</a>
-        <a href="{{ route('Plantacion') }}">Plantación</a>
-        <a href="{{ route('Especies') }}">Especies</a>
-        <a href="{{ route('ejemplos') }}">ejemplos</a>
+       <nav>
+  <a href="{{ route('Inicio') }}" class="nav-btn">Inicio</a>
+  <a href="{{ route('Reforestacion') }}" class="nav-btn">Reforestación</a>
+  <a href="{{ route('Beneficios') }}" class="nav-btn">Beneficios</a>
+  <a href="{{ route('Arboles') }}" class="nav-btn active">Tipos de Árboles</a>
+  <a href="{{ route('Caracteristicas') }}" class="nav-btn">Características</a>
+  <a href="{{ route('Plantacion') }}" class="nav-btn">Plantación</a>
+  <a href="{{ route('Especies') }}" class="nav-btn">Especies</a>
+  <a href="{{ route('ejemplos') }}" class="nav-btn">Ejemplos</a>
+</nav>
     </header>
     
+    <center><strong>¿Que significa Un futuro verde?</strong></center>
+    <p>Es una pagina web que se refiere a la reforestacion de la escuela CBTA 35 (Centro de Bachillerato )</p>
+
 </body>
 </html>
